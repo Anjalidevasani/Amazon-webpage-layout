@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon website layout</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+<body>
+
+    <!--site Header section starts here-->
+<header class="site-header">
+
+    <!-- Top navbar section-->
+    <div class="top-nav">
+     <div class="logo-location" >
+      <img src="/assests/image/logo.webp" alt="amazon.in" class="logo-img" width="50px" height="25px">
+      <div class="delivery-info">
+        <p class="delivery-text">Delivering to Hyderabad 500001</p>
+        <a href="#" class="update-location">Update location</a>
+      </div>
+     </div>
+
+    <div class="search-bar">
+      <select class="category-select">
+        <option>All</option>
+      </select>
+      <input type="text" class="search-input" placeholder="Search Amazon.in" />
+      <button class="search-button">🔍</button>
+    </div>
+
+    <div class="nav-actions">
+      <div class="language-select">
+       <select>
+        <option>EN</option>
+      </select>
+      </div>
+
+      <div class="account-section">
+        <span>Hello, sign in</span>
+        <a href="#" class="account-link">Account & Lists</a>
+      </div>
+
+      <div class="orders-section">
+        <span>Returns</span>
+        <a href="#" class="orders-link">& Orders</a>
+      </div>
+
+      <div class="cart-section">
+        <a href="#" class="cart-link">
+          <span class="cart-count">0</span>
+          🛒 Cart
+        </a>
+      </div>
+     </div>
+    </div>
+
+    <!-- navbar section -->
+  <nav class="category-nav">
+    <button class="menu-toggle">All</button>
+    <ul class="menu-items">
+     <li class="item-fresh"><a href="">Fresh</a></li>
+     <li class="item-mxplayer"><a href="">MX Player</a></li>
+     <li class="item-sell"><a href="">Sell</a></li>
+     <li class="item-bestseller"><a href="">Bestsellers</a></li>
+     <li class="item-mobiles"><a href="">Mobiles</a></li>
+     <li class="item-prime"><a href="">Prime</a></li>
+     <li class="item-todaydeals"><a href="">Today's Deals</a></li>
+     <li class="item-customerservice"><a href="">Customer Service</a></li>
+     <li class="items-newreleases"><a href="">New Releases</a></li>
+     <li class="item-fashion"><a href="">Fashion</a></li>
+     <li class="item-amazonpay"><a href="">Amazon Pay</a></li>
+    </ul>
+  </nav>
+</header>
+
+ <!--site Header section ends here-->
+
+ <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/devjyoti/GW/Uber/Nov/uber_new_high._CB537689643_.jpg" class="d-block w-100" alt="smartphones" height="350px" >
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/GW/P42/Boult_3000x1200-PC._CB543542644_.jpg" class="d-block w-100" alt="headphones" height="350px">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img24/Media/BAU/PC_Hero_2x-toys_1._CB582765723_.jpg" class="d-block w-100" alt="toys and games" height="350px">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!--Top items and offers and promotions -->
+
+<section class="promo-section">
+  <div class="promo-grid">
+
+    <!-- Card 1 -->
+    <div class="promo-card">
+      <h2 class="promo-title">Appliances for your home | Up to 55% off</h2>
+      <div class="item-grid">
+        <div class="promo-item">
+          <img src="/assests/image/ac.jpg" alt="Air Conditioners">
+          <p>Air conditioners</p>
+        </div>
+        <div class="promo-item">
+          <img src="/assests/image/rf.jpg" alt="Refrigerators">
+          <p>Refrigerators</p>
+        </div>
+        <div class="promo-item">
+          <img src="/assests/image/microwave.jpg" alt="Microwaves">
+          <p>Microwaves</p>
+        </div>
+        <div class="promo-item">
+          <img src="/assests/image/washingmachine.jpg" alt="Washing Machines">
+          <p>Washing machines</p>
+        </div>
+      </div>
+      <a href="#" class="promo-link">See more</a>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="promo-card">
+      <h2 class="promo-title">400+ New Launches | Prime Day | 12 - 14 July</h2>
+      <div class="promo-image">
+        <img src="/assests/image/pc.jpg" alt="Prime Day Products" height="300px" width="300px">
+      </div>
+      <a href="#" class="promo-link">See all offers</a>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="promo-card">
+      <h2 class="promo-title">Revamp your home in style</h2>
+      <div class="item-grid">
+        <div class="promo-item">
+          <img src="/assests/image/mates.jpg" alt="Cushion covers">
+          <p>Cushion covers, bedsheets & more</p>
+        </div>
+        <div class="promo-item">
+          <img src="/assests/image/storage.jpg" alt="Figurines">
+          <p>Figurines, vases & more</p>
+        </div>
+        <div class="promo-item">
+          <img src="/assests/image/storage.jpg" alt="Home storage">
+          <p>Home storage</p>
+        </div>
+        <div class="promo-item">
+          <img src="/assests/image/lights.jpg" alt="Lighting solutions">
+          <p>Lighting solutions</p>
+        </div>
+      </div>
+      <a href="#" class="promo-link">Explore all</a>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="promo-card">
+      <h2 class="promo-title">Under ₹499 | Deals on home improvement…</h2>
+      <div class="item-grid">
+        <div class="promo-item">
+          <img src="/assests/image/wipes.jpg" alt="Cleaning supplies">
+          <p>Under ₹199 | Cleaning supplies</p>
+        </div>
+        <div class="promo-item">
+          <img src="/assests/image/showerhead.jpg" alt="Bathroom accessories">
+          <p>Under ₹399 | Bathroom accessories</p>
+        </div>
+        <div class="promo-item">
+          <img src="/assests/image/tools.jpg" alt="Home tools">
+          <p>Under ₹499 | Home tools</p>
+        </div>
+        <div class="promo-item">
+          <img src="/assests/image/wallpapers.jpg" alt="Wallpapers" >
+          <p>Under ₹299 | Wallpapers</p>
+        </div>
+      </div>
+      <a href="#" class="promo-link">Explore all</a>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- 50% offer items -->
+
+<section class="furniture-offer-section">
+  <div class="section-header">
+    <h2 class="section-title">Up to 50% Off | Best buys in furniture</h2>
+    <a href="#" class="view-all-link">See all offers</a>
+  </div>
+
+  <div class="furniture-items-row">
+    <div class="furniture-item">
+      <img src="wall-shelves.jpg" alt="Wall shelves" class="furniture-image">
+    </div>
+
+    <div class="furniture-item">
+      <img src="ottoman.jpg" alt="Ottoman stool" class="furniture-image">
+    </div>
+
+    <div class="furniture-item">
+      <img src="white-side-table.jpg" alt="White side table" class="furniture-image">
+    </div>
+
+    <div class="furniture-item">
+      <img src="wooden-nightstand.jpg" alt="Wooden nightstand" class="furniture-image">
+    </div>
+
+    <div class="furniture-item">
+      <img src="green-pouf.jpg" alt="Green pouf" class="furniture-image">
+    </div>
+
+    <div class="furniture-item">
+      <img src="office-chair.jpg" alt="Office chair" class="furniture-image">
+    </div>
+
+  </div>
+</section>
+
+
+<!--amazon live -chat,watch and shop live -->
+
+
+<section class="live-stream-section">
+  <div class="live-stream-header">
+    <h2 class="live-title">Amazon LIVE - Watch, Chat & Shop LIVE</h2>
+    <a href="#" class="live-link">See more from Amazon Live</a>
+  </div>
+
+  <div class="live-stream-content">
+    
+    <!-- Live video block -->
+    <div class="live-video-box">
+      <div class="video-thumbnail">
+       <video src="/assests/video/2317031-hd_1920_1080_30fps.mp4" controls width="400px" height="300px"></video>
+      </div>
+    </div>
+
+    <!-- Product cards wrapper -->
+    <div class="product-list">
+      
+      <!-- Product 1 -->
+      <div class="product-card">
+        <img src="https://m.media-amazon.com/images/I/41i2Dhm7BZL._SX240_QL100_AC_SCLZZZZZZZ_.jpg " alt="Prime Shopping Edition" class="product-image">
+        <p class="product-name">Prime Shopping Edition</p>
+        <p class="product-price">₹399<sup>00</sup></p>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product-card">
+        <img src="https://m.media-amazon.com/images/I/91E1TbeBeGL._SX240_QL100_AC_SCLZZZZZZZ_.jpg" alt="Allen Solly Polo T-Shirt" class="product-image">
+        <p class="product-name">Allen Solly Men's Cotton Regular Fit Polo T-Shirt</p>
+        <div class="discount-tags">
+          <span class="discount-label">36% off</span>
+          <span class="limited-deal">Limited time deal</span>
+        </div>
+        <p class="product-price">₹699<sup>00</sup> <span class="old-price"><strike>₹1,099.00</strike></span></p>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product-card">
+        <img src="https://m.media-amazon.com/images/I/61ZqnYY8KsL._SX240_QL100_AC_SCLZZZZZZZ_.jpg" alt="LookMark Women's Kurta Set" class="product-image">
+        <p class="product-name">LookMark Women's Cotton Blend Kurta Set</p>
+        <div class="discount-tags">
+          <span class="discount-label">73% off</span>
+          <span class="limited-deal">Limited time deal</span>
+        </div>
+        <p class="product-price">₹699<sup>00</sup> <span class="old-price"><strike>₹2,599.00</strike></span></p>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="product-card">
+        <img src="https://m.media-amazon.com/images/I/71IQLWRCGAL._SX240_QL100_AC_SCLZZZZZZZ_.jpg" alt="Indian Garage Co Shirt" class="product-image">
+        <p class="product-name">The Indian Garage Co Men's Cotton Relaxed Fit Checkered Full Sleeves...</p>
+        <p class="product-price">₹735<sup>00</sup> <span class="old-price"><strike>₹2,099.00</strike></span></p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!--footer section -->
+
+<footer class="main-footer">
+
+  <!-- Recommendation Section -->
+  <div class="recommendation-box">
+    <h2 class="recommendation-title">See personalized recommendations</h2>
+    <button class="signin-button">Sign in</button>
+    <p class="new-customer-text">
+      New customer? <a href="#" class="signup-link">Start here.</a>
+    </p>
+  </div>
+
+  <!-- Back to Top -->
+  <div class="back-to-top-bar">
+    <a href="#" class="back-to-top-link">Back to top</a>
+  </div>
+
+  <!-- Footer Navigation Columns -->
+  <div class="footer-links-section">
+
+    <!-- Column 1 -->
+    <div class="footer-column">
+      <h3 class="footer-heading">Get to Know Us</h3>
+      <ul class="footer-list">
+        <li><a href="#" class="footer-link">About Us</a></li>
+        <li><a href="#" class="footer-link">Careers</a></li>
+        <li><a href="#" class="footer-link">Press Releases</a></li>
+        <li><a href="#" class="footer-link">Amazon Science</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 2 -->
+    <div class="footer-column">
+      <h3 class="footer-heading">Connect with Us</h3>
+      <ul class="footer-list">
+        <li><a href="#" class="footer-link">Facebook</a></li>
+        <li><a href="#" class="footer-link">Twitter</a></li>
+        <li><a href="#" class="footer-link">Instagram</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 3 -->
+    <div class="footer-column">
+      <h3 class="footer-heading">Make Money with Us</h3>
+      <ul class="footer-list">
+        <li><a href="#" class="footer-link">Sell on Amazon</a></li>
+        <li><a href="#" class="footer-link">Sell under Amazon Accelerator</a></li>
+        <li><a href="#" class="footer-link">Protect and Build Your Brand</a></li>
+        <li><a href="#" class="footer-link">Amazon Global Selling</a></li>
+        <li><a href="#" class="footer-link">Supply to Amazon</a></li>
+        <li><a href="#" class="footer-link">Become an Affiliate</a></li>
+        <li><a href="#" class="footer-link">Fulfilment by Amazon</a></li>
+        <li><a href="#" class="footer-link">Advertise Your Products</a></li>
+        <li><a href="#" class="footer-link">Amazon Pay on Merchants</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 4 -->
+    <div class="footer-column">
+      <h3 class="footer-heading">Let Us Help You</h3>
+      <ul class="footer-list">
+        <li><a href="#" class="footer-link">Your Account</a></li>
+        <li><a href="#" class="footer-link">Returns Centre</a></li>
+        <li><a href="#" class="footer-link">Recalls and Product Safety Alerts</a></li>
+        <li><a href="#" class="footer-link">100% Purchase Protection</a></li>
+        <li><a href="#" class="footer-link">Amazon App Download</a></li>
+        <li><a href="#" class="footer-link">Help</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- Branding and Language Selector -->
+  <div class="footer-branding-section">
+    <div class="brand-logo">
+      <img src="/assests/image/logo.webp" alt="Amazon Logo" class="logo-image" width="50px" height="25px">
+    </div>
+    <div class="language-selectors">
+      <select class="language-dropdown">
+        <option value="en">English</option>
+      </select>
+      <select class="region-dropdown">
+        <option value="in">India</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Partner Services Grid -->
+  <div class="footer-services-wrapper">
+
+    <div class="service-item">
+      <h4 class="service-title">AbeBooks</h4>
+      <p class="service-desc">Books, art<br>&amp; collectibles</p>
+    </div>
+
+    <div class="service-item">
+      <h4 class="service-title">Amazon Web Services</h4>
+      <p class="service-desc">
+        <a href="#">Scalable Cloud<br>Computing Services</a>
+      </p>
+    </div>
+
+    <div class="service-item">
+      <h4 class="service-title">Audible</h4>
+      <p class="service-desc">Download<br>Audio Books</p>
+    </div>
+
+    <div class="service-item">
+      <h4 class="service-title">IMDb</h4>
+      <p class="service-desc">Movies, TV<br>&amp; Celebrities</p>
+    </div>
+
+    <div class="service-item">
+      <h4 class="service-title">Shopbop</h4>
+      <p class="service-desc">Designer<br>Fashion Brands</p>
+    </div>
+
+    <div class="service-item">
+      <h4 class="service-title">Amazon Business</h4>
+      <p class="service-desc">Everything For<br>Your Business</p>
+    </div>
+
+    <div class="service-item">
+      <h4 class="service-title">Prime Now</h4>
+      <p class="service-desc">2-Hour Delivery<br>on Everyday Items</p>
+    </div>
+
+    <div class="service-item">
+      <h4 class="service-title">Amazon Prime Music</h4>
+      <p class="service-desc">
+        100 million songs, ad-free<br>
+        Over 15 million podcast episodes
+      </p>
+    </div>
+
+  </div>
+
+  <!-- Legal Links -->
+  <div class="footer-legal-section">
+    <ul class="legal-links">
+      <li><a href="#">Conditions of Use &amp; Sale</a></li>
+      <li><a href="#">Privacy Notice</a></li>
+      <li><a href="#">Interest-Based Ads</a></li>
+    </ul>
+    <p class="copyright">
+      © 1996–2025, Amazon.com, Inc. or its affiliates
+    </p>
+  </div>
+
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
